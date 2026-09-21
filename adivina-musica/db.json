@@ -1,0 +1,148 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Shake It Off",
+      "artist": "Taylor Swift",
+      "album": "1989",
+      "preview": "/audio/clip1.mp3",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/4a/4a/894a4ab9-b0b0-9ea5-ca41-8da0b9b79453/14UMDIM03405.rgb.jpg/300x300bb.jpg",
+      "genre": "Pop"
+    },
+    {
+      "id": 2,
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "preview": "/audio/clip2.mp3",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/300x300bb.jpg",
+      "genre": "R&B/Soul"
+    },
+    {
+      "id": 3,
+      "title": "Cruel Summer",
+      "artist": "Taylor Swift",
+      "album": "Lover",
+      "preview": "/audio/clip3.mp3",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/3d/ab/493dab54-f920-9043-6181-80993b8116c9/19UMGIM53909.rgb.jpg/300x300bb.jpg",
+      "genre": "Pop"
+    },
+    {
+      "id": 4,
+      "title": "bad guy",
+      "artist": "Billie Eilish",
+      "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+      "preview": "/audio/clip4.mp3",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3a/8e/8f/3a8e8f0e-0c0e-8f0e-0c0e-8f0e0c0e8f0e/19UMGIM00000.rgb.jpg/300x300bb.jpg",
+      "genre": "Alternative"
+    },
+    {
+      "id": 5,
+      "title": "Shape of You",
+      "artist": "Ed Sheeran",
+      "album": "÷ (Deluxe)",
+      "preview": "/audio/clip5.mp3",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5b/6c/7d/5b6c7d8e-9f0a-1b2c-3d4e-5f6a7b8c9d0e/17UMGIM00000.rgb.jpg/300x300bb.jpg",
+      "genre": "Pop"
+    },
+    {
+      "id": 6,
+      "title": "Don't Start Now",
+      "artist": "Dua Lipa",
+      "album": "Future Nostalgia",
+      "preview": "/audio/clip6.mp3",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6c/7d/8e/6c7d8e9f-0a1b-2c3d-4e5f-6a7b8c9d0e1f/19UMGIM00000.rgb.jpg/300x300bb.jpg",
+      "genre": "Pop"
+    },
+    {
+      "id": 7,
+      "title": "As It Was",
+      "artist": "Harry Styles",
+      "album": "Harry's House",
+      "preview": "/audio/clip7.mp3",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9f/0a/1b/9f0a1b2c-3d4e-5f6a-7b8c-9d0e1f2a3b4c/22UMGIM00000.rgb.jpg/300x300bb.jpg",
+      "genre": "Pop"
+    },
+    {
+      "id": 8,
+      "title": "Believer",
+      "artist": "Imagine Dragons",
+      "album": "Evolve",
+      "preview": "/audio/clip8.mp3",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/11/7a/b8/117ab805-6811-8929-18b9-0fad7baf0c25/17UMGIM98210.rgb.jpg/300x300bb.jpg",
+      "genre": "Alternative"
+    },
+    {
+      "id": 9,
+      "title": "Viva La Vida",
+      "artist": "Coldplay",
+      "album": "Viva La Vida or Death and All His Friends",
+      "preview": "/audio/clip9.mp3",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/52/aa/85/52aa851f-15b7-6322-f91f-df84b15b7b19/190295978044.jpg/300x300bb.jpg",
+      "genre": "Alternative"
+    },
+    {
+      "id": 10,
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "album": "A Night at the Opera",
+      "preview": "/audio/clip10.mp3",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1b/2c/3d/1b2c3d4e-5f6a-7b8c-9d0e-1f2a3b4c5d6e/15UMGIM00000.rgb.jpg/300x300bb.jpg",
+      "genre": "Rock"
+    },
+    {
+      "id": 11,
+      "title": "Uptown Funk",
+      "artist": "Mark Ronson & Bruno Mars",
+      "album": "Uptown Special",
+      "preview": "/audio/clip1.mp3",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0a/1b/2c/0a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d/14UMGIM00000.rgb.jpg/300x300bb.jpg",
+      "genre": "Pop"
+    },
+    {
+      "id": 12,
+      "title": "Thunder",
+      "artist": "Imagine Dragons",
+      "album": "Evolve",
+      "preview": "/audio/clip3.mp3",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/11/7a/b8/117ab805-6811-8929-18b9-0fad7baf0c25/17UMGIM98210.rgb.jpg/300x300bb.jpg",
+      "genre": "Alternative"
+    },
+    {
+      "id": 13,
+      "title": "Hello",
+      "artist": "Adele",
+      "album": "25",
+      "preview": "/audio/clip5.mp3",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/6a/7b/5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c/15UMGIM00000.rgb.jpg/300x300bb.jpg",
+      "genre": "Pop"
+    },
+    {
+      "id": 14,
+      "title": "Levitating",
+      "artist": "Dua Lipa",
+      "album": "Future Nostalgia",
+      "preview": "/audio/clip7.mp3",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/8c/9d/0e/8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f/20UMGIM00000.rgb.jpg/300x300bb.jpg",
+      "genre": "Pop"
+    },
+    {
+      "id": 15,
+      "title": "good 4 u",
+      "artist": "Olivia Rodrigo",
+      "album": "SOUR",
+      "preview": "/audio/clip9.mp3",
+      "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/8e/9f/0a/8e9f0a1b-2c3d-4e5f-6a7b-8c9d0e1f2a3b/21UMGIM00000.rgb.jpg/300x300bb.jpg",
+      "genre": "Pop"
+    }
+  ],
+  "scores": [
+    {
+      "id": 1,
+      "player": "DemoPlayer",
+      "score": 70,
+      "date": "2026-09-20T12:00:00.000Z",
+      "level": "normal"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.home-hero {
+  text-align: center;
+  max-width: 480px;
+  width: 100%;
+}
+
+.home-hero h1 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  background: linear-gradient(90deg, var(--primary), #ff9a9e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.start-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.start-form label {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.form-error {
+  color: var(--danger);
+  font-size: 0.85rem;
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+.home-links {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}

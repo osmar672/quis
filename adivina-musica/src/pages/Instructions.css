@@ -1,0 +1,29 @@
+.instructions {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.instructions h1 {
+  margin-bottom: 1.25rem;
+  color: var(--primary);
+}
+
+.instructions h2 {
+  margin: 1.5rem 0 0.75rem;
+  font-size: 1.15rem;
+}
+
+.instructions ol,
+.instructions ul {
+  padding-left: 1.5rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+}
+
+.instructions li {
+  margin-bottom: 0.5rem;
+}
+
+.instructions strong {
+  color: var(--text);
+}

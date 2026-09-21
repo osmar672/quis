@@ -1,0 +1,67 @@
+.scores-page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.scores-page h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.scores-subtitle {
+  text-align: center;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.scores-table-wrapper {
+  overflow-x: auto;
+}
+
+.scores-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scores-table th,
+.scores-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.scores-table th {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.scores-table tbody tr {
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.scores-table tbody tr:hover {
+  background: rgba(233, 69, 96, 0.05);
+}
+
+.rank {
+  font-weight: 700;
+  color: var(--primary);
+  width: 40px;
+}
+
+.score-cell {
+  font-weight: 700;
+  color: var(--success);
+}
+
+.date-cell {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.empty {
+  text-align: center;
+  padding: 2rem;
+}

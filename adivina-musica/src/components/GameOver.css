@@ -1,0 +1,45 @@
+.game-over {
+  text-align: center;
+  max-width: 420px;
+  margin: 2rem auto;
+}
+
+.game-over h2 {
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.go-player {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.go-score {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.go-score strong {
+  color: var(--primary);
+}
+
+.go-message {
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+}
+
+.go-status {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.go-status.success { color: var(--success); }
+.go-status.error { color: var(--danger); }
+
+.go-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: stretch;
+}

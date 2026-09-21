@@ -1,0 +1,46 @@
+.options-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.option-btn {
+  width: 100%;
+  text-align: left;
+  padding: 1rem 1.25rem;
+  background: var(--surface);
+  border: 2px solid transparent;
+  border-radius: 10px;
+  color: var(--text);
+  transition: all 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.option-btn:hover:not(:disabled) {
+  border-color: var(--primary);
+  background: rgba(233, 69, 96, 0.1);
+  transform: translateX(4px);
+}
+
+.option-btn.correct {
+  border-color: var(--success);
+  background: rgba(46, 204, 113, 0.15);
+}
+
+.option-btn.wrong {
+  border-color: var(--danger);
+  background: rgba(231, 76, 60, 0.15);
+}
+
+.opt-title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.opt-artist {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}

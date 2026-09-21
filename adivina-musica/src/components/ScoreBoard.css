@@ -1,0 +1,38 @@
+.scoreboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.scoreboard-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.scoreboard-item .label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.scoreboard-item .value {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.scoreboard-item .score {
+  color: var(--primary);
+}
+
+.heart {
+  font-size: 1.1rem;
+  margin: 0 2px;
+}
+
+.heart.empty {
+  opacity: 0.4;
+}

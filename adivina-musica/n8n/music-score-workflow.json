@@ -1,0 +1,155 @@
+{
+  "name": "Music Guess - Guardar Puntaje",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "music-score",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook-1",
+      "name": "Webhook - Recibir Puntaje",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1.1,
+      "position": [250, 300],
+      "webhookId": "music-score-webhook"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "number": [
+            {
+              "value1": "={{ $json.score }}",
+              "operation": "largerEqual",
+              "value2": 50
+            }
+          ]
+        }
+      },
+      "id": "if-1",
+      "name": "IF Score >= 50",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [480, 300]
+    },
+    {
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "status",
+              "value": "high_score"
+            },
+            {
+              "name": "message",
+              "value": "={{ '¡Excelente puntaje de ' + $json.score + ' puntos, ' + $json.player + '!' }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-high",
+      "name": "Marcar High Score",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [720, 200]
+    },
+    {
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "status",
+              "value": "normal"
+            },
+            {
+              "name": "message",
+              "value": "={{ 'Puntaje registrado: ' + $json.score + ' - ' + $json.player }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-normal",
+      "name": "Marcar Normal",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [720, 400]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { \"ok\": true, \"player\": $json.player, \"score\": $json.score, \"status\": $json.status, \"message\": $json.message } }}",
+        "options": {}
+      },
+      "id": "respond-1",
+      "name": "Responder al Frontend",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [960, 300]
+    }
+  ],
+  "connections": {
+    "Webhook - Recibir Puntaje": {
+      "main": [
+        [
+          {
+            "node": "IF Score >= 50",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "IF Score >= 50": {
+      "main": [
+        [
+          {
+            "node": "Marcar High Score",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Marcar Normal",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Marcar High Score": {
+      "main": [
+        [
+          {
+            "node": "Responder al Frontend",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Marcar Normal": {
+      "main": [
+        [
+          {
+            "node": "Responder al Frontend",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "pinData": {},
+  "versionId": "1"
+}
